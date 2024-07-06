@@ -35,5 +35,28 @@ nav a {
 
 nav a:hover,
 nav li.active a {
-    color: ;
+    color: var(--branding-color);
+}
+
+.content-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 64px;
+}
+
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+
+main {
+    background-color: #fff;
+}
+
+.img-responsive {
+    max-width: 100%;
+    display: block;
 }
